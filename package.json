@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "homepage": "https://Kishan28p.github.io/Portfolio",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "cra-template": "1.2.0",
     "framer-motion": "^12.4.7",
