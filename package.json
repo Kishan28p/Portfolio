@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "0.1.0",
-  "homepage": "https://Kishan28port.netlify.app",
+  "homepage": "https://kishan28port.netlify.app",
   "private": true,
   "engines": {
     "node": "18.x"
