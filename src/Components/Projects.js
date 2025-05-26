@@ -67,7 +67,7 @@ function Projects() {
       </div>
       {selectedImage && (
         <div className='image-modal' onClick={()=>setSelectedImage(null)}>
-          <img src={selectedImage}></img>
+          <img src={selectedImage} alt='img'></img>
         </div>
       )}
     </motion.div>
