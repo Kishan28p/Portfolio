@@ -22,12 +22,7 @@ function Hero() {
                   delaySpeed={1000}
                   />
                 </span>
-                </h1>
-              
-              
-               
-              
-              
+                </h1>   
           </div>
           {/* <div className='btn-container'>
             <button className='contact-btn '><a href="kishankumarp228@gmail.com" type='button'></a>Contact</button>  
