@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import './Projects.css'; // Make sure this file exists
+import './Projects.css'; 
 
-// Example project images (replace with real paths)
+
 import capify from './Projects/capify.png';
 import dblog from './Projects/dblog.png';
 
