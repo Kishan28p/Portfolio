@@ -14,11 +14,19 @@ function Projects() {
     {
       title: 'Capify : Caption Generating tool',
       description: 'Capify uses AI to generate smart image captions. It features user login and registration, offering 2 free caption trials for guests and unlimited access for registered users.',
+      tools : 'Django | React.js',
       img: capify
     },
     {
       title: 'Dblog – Simple Blogging System',
       description: ' A Django project where users can sign up, log in, and create, edit, or delete their blog posts. Users can also view other blogs and add comments. It includes login authentication and profile image upload.',
+      tools : 'Django | HTML | CSS | Bootstrap',
+      img: dblog
+    },
+    {
+      title:'Kawaii Manga Mart',
+      description: 'A Django project where users can register, log in, and browse manga books. Users can add items to their cart and check out.  Admins can manage books and handle a To-Do list with add, edit, and delete options. Includes login and admin/user access control.',
+      tools : 'Django | HTML | CSS | Bootstrap',
       img: dblog
     },
  
@@ -62,6 +70,7 @@ function Projects() {
             />
             <h5>{project.title}</h5>
             <p>{project.description}</p>
+            <p className='tools'>{project.tools}</p>
           </motion.div>
         ))}
       </div>

@@ -29,7 +29,7 @@
   background: #fff;
   border-radius: 12px;
   width: 400px;
-  height: 400px;
+  height: 500px;
   padding: 1.5rem;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -96,4 +96,10 @@
   transition: 0.3s ease-in-out;
   cursor: pointer;
 }
-
+.project-card .tools {
+  margin-top: auto;
+  font-style: italic;
+  color: #aaa;
+  text-align: left; 
+  width: 100%; 
+}
