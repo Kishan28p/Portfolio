@@ -2,6 +2,7 @@ import React from 'react'
 import Img from './Images/logo.png'
 import Resume from './Documents/resumeOg_kishan.pdf';
 
+
 function Navbar() {
   return (
         <nav className="navbar navbar-expand-lg  ">

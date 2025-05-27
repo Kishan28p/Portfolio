@@ -99,7 +99,20 @@
 .project-card .tools {
   margin-top: auto;
   font-style: italic;
-  color: #aaa;
+  color: #616060;
   text-align: left; 
   width: 100%; 
+}
+
+.project-card a{
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 5px;
+  background-color: #0650b8;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.project-card a:hover{
+  background-color: #0b3877;
 }
