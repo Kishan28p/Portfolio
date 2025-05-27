@@ -5,6 +5,7 @@ import './Projects.css';
 
 import capify from './Projects/capify.png';
 import dblog from './Projects/dblog.png';
+import book from './Projects/bookproject.png';
 
 
 function Projects() {
@@ -27,7 +28,7 @@ function Projects() {
       title:'Kawaii Manga Mart',
       description: 'A Django project where users can register, log in, and browse manga books. Users can add items to their cart and check out.  Admins can manage books and handle a To-Do list with add, edit, and delete options. Includes login and admin/user access control.',
       tools : 'Django | HTML | CSS | Bootstrap',
-      img: dblog
+      img: book
     },
  
   ];
