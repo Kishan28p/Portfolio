@@ -1,6 +1,6 @@
 import React from 'react'
 import Img from './Images/logo.png'
-import Resume from './Documents/resumeOg_kishan.pdf';
+import Resume from './Documents/Kishan_kumar_p.pdf';
 
 
 function Navbar() {
