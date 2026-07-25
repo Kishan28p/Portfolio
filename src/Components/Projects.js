@@ -6,6 +6,7 @@ import './Projects.css';
 import capify from './Projects/capify.png';
 import dblog from './Projects/dblog.png';
 import book from './Projects/bookproject.png';
+import rideon from './Projects/rideon.png';
 
 
 function Projects() {
@@ -33,6 +34,14 @@ function Projects() {
       img: book,
       gitlink:'https://github.com/Kishan28p/bookproject'
     },
+    {
+      title:'RaidOn : Bike renting system',
+      description: 'A Bike Rental System is a web-based platform that allows users to browse, book, and manage bike rentals online.',
+      tools : 'Django | React ',
+      img: rideon,
+      gitlink: 'https://rideon-ar95.vercel.app/'
+    },
+ 
  
   ];
 
